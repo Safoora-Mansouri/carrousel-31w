@@ -31,7 +31,7 @@ true);
 }
 
 add_action('wp_enqueue_scripts', 'carrousel_enqueue');
-
+//generer le code HTML//
 function creation_carrousel()
 {
 return '<button class="bouton__ouvrir">Ouvrir</button>
