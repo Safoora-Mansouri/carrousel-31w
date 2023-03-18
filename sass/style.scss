@@ -41,7 +41,20 @@
 .carrousel__img--activer{
     opacity: 1;
 }
-
+.controls{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    .button__next{
+        position: absolute;
+       right:20px;
+      }
+      .button__previous{
+        position: absolute;
+      left: 20px;
+      }
+ }
+  
 /* le conteneur des boutons radio */
 .carrousel__form {}
 

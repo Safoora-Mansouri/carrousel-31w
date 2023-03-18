@@ -38,8 +38,16 @@ return '<button class="bouton__ouvrir">Ouvrir</button>
     <div class="carrousel">
     <button class="bouton__x">X</button>
     <figure class="carrousel__figure"></figure>
+    <div class="controls">
+        <button class="button__next">next</button>
+        <button class="button__previous">previous</button>
+    </div>
     <form class="carrousel__form"></form>
     </div>';
 }  
 
 add_shortcode('carrousel', 'creation_carrousel');
+
+
+
+
