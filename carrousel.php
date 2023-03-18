@@ -39,8 +39,14 @@ return '<button class="bouton__ouvrir">Ouvrir</button>
     <button class="bouton__x">X</button>
     <figure class="carrousel__figure"></figure>
     <div class="controls">
-        <button class="button__next">next</button>
-        <button class="button__previous">previous</button>
+        <button class="button__next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M14.59 8L10 12.59L11.41 14L17.41 8L11.41 2L10 3.41L14.59 8Z"/>
+      </svg>
+      g</button>
+        <button class="button__previous"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+        <path d="M9.41 16L14 11.41L12.59 10L6.59 16L12.59 22L14 20.59L9.41 16Z"/>
+      </svg>
+      </button>
     </div>
     <form class="carrousel__form"></form>
     </div>';
