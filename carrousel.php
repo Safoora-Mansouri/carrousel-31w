@@ -39,13 +39,13 @@ return '<button class="bouton__ouvrir">Ouvrir</button>
     <button class="bouton__x">X</button>
     <figure class="carrousel__figure"></figure>
     <div class="controls">
-        <button class="button__next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M14.59 8L10 12.59L11.41 14L17.41 8L11.41 2L10 3.41L14.59 8Z"/>
-      </svg>
-      g</button>
-        <button class="button__previous"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-        <path d="M9.41 16L14 11.41L12.59 10L6.59 16L12.59 22L14 20.59L9.41 16Z"/>
-      </svg>
+        <button class="button__next"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right" viewBox="0 0 16 16">
+  <path d="M6 12.796V3.204L11.481 8 6 12.796zm.659.753 5.48-4.796a1 1 0 0 0 0-1.506L6.66 2.451C6.011 1.885 5 2.345 5 3.204v9.592a1 1 0 0 0 1.659.753z"/>
+</svg>
+      </button>
+        <button class="button__previous"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left" viewBox="0 0 16 16">
+  <path d="M10 12.796V3.204L4.519 8 10 12.796zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753z"/>
+</svg>
       </button>
     </div>
     <form class="carrousel__form"></form>
